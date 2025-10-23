@@ -98,3 +98,33 @@ function clearDis() {
     display();
 
 }
+
+let isLightOn = false;
+
+function lightSwitch() {
+
+    if (!isLightOn) {
+
+        document.querySelector('.display').style.backgroundColor = 'var(--clr-lights-on)';
+        document.querySelectorAll('.axisY > button').forEach(btn => {
+            btn.style.backgroundColor = 'var(--clr-lights-on-btn)';
+            btn.style.border = '2px solid var(--clr-lights-on-btn)';
+            btn.style.boxShadow = '0 0 2px var(--clr-lights-on-btn)';
+            btn.style.color = 'var(--clr-font-2)';
+        });
+
+    } else {
+
+        document.querySelector('.display').style.backgroundColor = '';
+        document.querySelectorAll('.axisY > button').forEach(btn => {
+            btn.style.backgroundColor = '';
+            btn.style.border = '';
+            btn.style.boxShadow = '';
+            btn.style.color = '';
+        });
+
+    }
+
+    isLightOn = !isLightOn;
+
+}

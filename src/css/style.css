@@ -13,6 +13,8 @@ html {
     --clr-surface: #413f3c;
     --clr-surface-2: #282826;
     --clr-accents: #2d2c29;
+    --clr-lights-on: #ffc1079f;
+    --clr-lights-on-btn: #ffc10773;
 
 }
 
@@ -45,6 +47,12 @@ body {
     border-radius: 15px;
 }
 
+@media (max-width: 435px) {
+    #calculator {
+        width: 90%;
+    }
+}
+
 .display {
     width: 87.5%;
     height: 100px;
@@ -64,6 +72,10 @@ body {
     font-weight: 700;
     font-size: 3rem;
     overflow: scroll;
+}
+
+.display::-webkit-scrollbar {
+    display: none;
 }
 
 .actions {
@@ -101,6 +113,12 @@ body {
     color: var(--clr-font-2);
     margin-top: .25rem;
     margin-bottom: .25rem;
+    transition: .25s;
+}
+
+.axisY>button:hover {
+    box-shadow: none;
+    transform: scale(0.9);
 }
 
 button.equal {
