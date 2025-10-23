@@ -1,0 +1,14 @@
+/* Font Face for 'Seven Segment' */
+
+@font-face {
+    font-family: 'Seven Segment';
+    src: url('./../assets/fonts/seven-segment/SevenSegmentRegular.eot');
+    src: url('./../assets/fonts/seven-segment/SevenSegmentRegular.eot?#iefix') format('embedded-opentype'),
+        url('./../assets/fonts/seven-segment/SevenSegmentRegular.woff2') format('woff2'),
+        url('./../assets/fonts/seven-segment/SevenSegmentRegular.woff') format('woff'),
+        url('./../assets/fonts/seven-segment/SevenSegmentRegular.ttf') format('truetype'),
+        url('./../assets/fonts/seven-segment/SevenSegmentRegular.svg#SevenSegmentRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

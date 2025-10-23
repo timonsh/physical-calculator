@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Seven Segment';
+    src: url('SevenSegmentRegular.eot');
+    src: url('SevenSegmentRegular.eot?#iefix') format('embedded-opentype'),
+        url('SevenSegmentRegular.woff2') format('woff2'),
+        url('SevenSegmentRegular.woff') format('woff'),
+        url('SevenSegmentRegular.ttf') format('truetype'),
+        url('SevenSegmentRegular.svg#SevenSegmentRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

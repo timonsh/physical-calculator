@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Config -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physical Calculator</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./src/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="./src/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Calculator" />
+    <link rel="manifest" href="./src/assets/favicons/site.webmanifest" />
+
+    <!-- References -->
+    <link rel="stylesheet" type="text/css" href="./src/css/@font-face.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+    <script src="./src/js/main.js" type="text/javascript" defer></script>
+
+    <!-- SEO -->
+    <meta name="author" content="WebByte Studio">
+
+</head>
+
+<body>
+
+
+
+    <!-- Calculator -->
+
+    <section id="calculator">
+
+        <section class="display"></section>
+
+        <section class="actions">
+
+            <div class="axisY">
+                <button type="button" onclick="clear()">C</button>
+                <button type="button" onclick="num(7)">7</button>
+                <button type="button" onclick="num(4)">4</button>
+                <button type="button" onclick="num(1)">1</button>
+                <button type="button" onclick="num(0)">0</button>
+            </div>
+
+            <div class="axisY">
+                <button type="button" onclick="lightSwitch()">L</button>
+                <button type="button" onclick="num(8)">8</button>
+                <button type="button" onclick="num(5)">5</button>
+                <button type="button" onclick="num(2)">2</button>
+                <button type="button" onclick="num('.')">.</button>
+            </div>
+
+            <div class="axisY">
+                <button type="button" onclick="del()">R</button>
+                <button type="button" onclick="num(9)">9</button>
+                <button type="button" onclick="num(6)">6</button>
+                <button type="button" onclick="num(3)">3</button>
+                <button type="button" onclick="equal()" class="equal">=</button>
+            </div>
+
+            <div class="axisY">
+                <button type="button" onclick="opr('/')">÷</button>
+                <button type="button" onclick="opr('*')">×</button>
+                <button type="button" onclick="opr('-')">-</button>
+                <button type="button" onclick="opr('+')" class="add">+</button>
+            </div>
+
+        </section>
+
+    </section>
+
+
+
+</body>
+
+</html>
