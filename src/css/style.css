@@ -63,6 +63,7 @@ body {
     font-family: "Seven Segment";
     font-weight: 700;
     font-size: 3rem;
+    overflow: scroll;
 }
 
 .actions {
